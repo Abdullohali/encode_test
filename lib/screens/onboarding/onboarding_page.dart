@@ -17,7 +17,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 1), () {
+    Timer(const Duration(milliseconds: 100), () {
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (_) => HomeScreen()));
     });
